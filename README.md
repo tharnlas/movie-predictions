@@ -5,16 +5,16 @@ Run the algorithms from /code/main.py.
 
 Currently, the user must manually change the following in main.py: 
 
-- The training data (train.txt) and test data (test5.txt, test10.txt, or test20.txt) file names.
-- The desired user-based or item-based algorithm. The choices are listed below: 
+1. The training data (train.txt) and test data (test5.txt, test10.txt, or test20.txt) file names.
+2. The desired user-based or item-based algorithm. The choices are listed below: 
 
-- **User-Based**: 'cosine' (cosine similarity), 'pearson_cc' (Pearson correlation coefficient), 'pearson_iuf' (Pearson w/ inverse user frequency), 'pearson_amp' (Pearson w/ case amplification)
+	- **User-Based**: 'cosine' (cosine similarity), 'pearson_cc' (Pearson correlation coefficient), 'pearson_iuf' (Pearson w/ inverse user frequency), 'pearson_amp' (Pearson w/ case amplification)
 
-- **Item-Based**: 'adj_cosine' (adjusted cosine similarity), 'pearson' (Pearson correlation coefficient) 
+	- **Item-Based**: 'adj_cosine' (adjusted cosine similarity), 'pearson' (Pearson correlation coefficient) 
 
-- The output file name for the predicted ratings.
+3. The output file name for the predicted ratings.
 
-- The # of known ratings per user in the give test dataset. 
+4. The # of known ratings per user in the give test dataset. 
 
 ** Example **
 
